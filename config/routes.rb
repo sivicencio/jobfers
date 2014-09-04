@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
-  resources :offers
+  resources :offers do
+    collection do
+      get 'page/:page', controller: "offers", action: 'index'
+    end
+  end
   root 'offers#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
