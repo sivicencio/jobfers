@@ -1,0 +1,11 @@
+<div class="title">
+  <h1><%= @offer.title %></h1>
+  <h4><%= @offer.mode %></h4>
+
+  <ul>
+    <li>Empresa: <%= @offer.company.name %></li>
+    <li>Salario: <%= number_to_currency(@offer.salary) %> CLP</li>
+  </ul>
+
+  <p><%= @offer.description %></p>
+</div>

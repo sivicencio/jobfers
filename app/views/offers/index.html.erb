@@ -1,0 +1,12 @@
+<h1>Offers</h1>
+<ul>
+  <% @offers.each do |offer| %>
+    <li>
+      <a href="<%= offer_path(offer) %>">
+        <div><strong><%= offer.title %></strong> en <%= offer.company.name %></div>
+        <div><%= offer.mode %></div>
+      </a>
+    </li>
+    <br>
+  <% end %>
+</ul>
