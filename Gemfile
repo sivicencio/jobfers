@@ -32,6 +32,11 @@ gem 'will_paginate'
 
 gem 'simple_form'
 
+group :test do
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner'
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
