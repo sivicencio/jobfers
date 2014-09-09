@@ -1,9 +1,9 @@
 <%= simple_form_for @offer do |f| %>
   <%= f.input :title %>
+  <%= f.input :mode %>
   <%= f.input :salary %>
   <%= f.input :description %>
   <%= f.association :company %>
-  <%= f.collection_check_boxes :skills, Skill.all, :id, :title %>
-  <br>
+  <%= f.association :skills, as: :check_boxes %>
   <%= f.button :submit %>
 <% end %>

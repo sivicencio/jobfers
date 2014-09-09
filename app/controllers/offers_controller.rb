@@ -25,6 +25,6 @@ class OffersController < ApplicationController
   private
 
   def offers_params
-    params.require(:offer).permit(:title, :salary, :description)
+    params.require(:offer).permit(:title, :salary, :description, :mode, :company_id, :skill_ids => [])
   end
 end
