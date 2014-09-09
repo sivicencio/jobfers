@@ -1,0 +1,9 @@
+<%= simple_form_for @offer do |f| %>
+  <%= f.input :title %>
+  <%= f.input :salary %>
+  <%= f.input :description %>
+  <%= f.association :company %>
+  <%= f.collection_check_boxes :skills, Skill.all, :id, :title %>
+  <br>
+  <%= f.button :submit %>
+<% end %>

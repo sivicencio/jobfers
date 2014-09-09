@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   resources :offers do
     collection do
-      get 'page/:page', controller: "offers", action: 'index'
+      get 'page/:page', controller: 'offers', action: 'index'
     end
   end
   root 'offers#index'
