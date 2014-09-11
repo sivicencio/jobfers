@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140904072542) do
+ActiveRecord::Schema.define(version: 20140911031119) do
 
   create_table "companies", force: true do |t|
     t.string   "name"
@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 20140904072542) do
 
   create_table "offers", force: true do |t|
     t.string   "title"
-    t.string   "mode"
+    t.integer  "mode",        limit: 255
     t.decimal  "salary"
     t.text     "description"
     t.integer  "company_id"

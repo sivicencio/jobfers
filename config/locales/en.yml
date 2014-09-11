@@ -21,3 +21,9 @@
 
 en:
   hello: "Hello world"
+  offers:
+    modes:
+      full_time: Full time
+      part_time: Part time
+      freelance: Freelance
+      internship: Internship

@@ -60,7 +60,7 @@ offer_titles = [
                 'Angular JS Developer',
                 'Ember.js Developer'
               ]
-modes = ['Full time', 'Part time', 'Freelance', 'Internship']
+modes = [0, 1, 2, 3]
 
 100.times do |i|
   Offer.find_or_create_by(id: i) do |offer|
