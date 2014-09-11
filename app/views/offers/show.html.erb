@@ -1,6 +1,6 @@
 <div class="title">
   <h1><%= @offer.title %></h1>
-  <h4><%= t @offer.mode %></h4>
+  <h4><%= t "offers.modes.#{@offer.mode}" %></h4>
 
   <ul>
     <li>Empresa: <%= @offer.company.name %></li>

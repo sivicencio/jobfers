@@ -32,8 +32,20 @@ gem 'will_paginate'
 
 gem 'simple_form'
 
+
+##### TESTING GEMS ####
+
+## RSPEC ##
+group :development, :test do
+  gem 'rspec-rails', require: false
+  gem 'factory_girl_rails'
+  gem 'selenium-webdriver', require: false
+end
+
+## CUCUMBER ##
 group :test do
-  gem 'cucumber-rails', :require => false
+  gem 'shoulda'
+  gem 'cucumber-rails', require: false
   gem 'database_cleaner'
 end
 
