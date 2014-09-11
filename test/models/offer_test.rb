@@ -1,7 +1,8 @@
 require 'test_helper'
 
 class OfferTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  test "should not save offer without title" do
+    offer = Offer.new
+    assert_not offer.save
+  end
 end

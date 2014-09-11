@@ -32,6 +32,23 @@ gem 'will_paginate'
 
 gem 'simple_form'
 
+
+##### TESTING GEMS ####
+
+## RSPEC ##
+group :development, :test do
+  gem 'rspec-rails', require: false
+  gem 'factory_girl_rails'
+  gem 'selenium-webdriver', require: false
+end
+
+## CUCUMBER ##
+group :test do
+  gem 'shoulda'
+  gem 'cucumber-rails', require: false
+  gem 'database_cleaner'
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
