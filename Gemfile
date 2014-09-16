@@ -47,6 +47,7 @@ group :test do
   gem 'shoulda'
   gem 'cucumber-rails', require: false
   gem 'database_cleaner'
+  gem 'simplecov', require: false
 end
 
 # Use ActiveModel has_secure_password

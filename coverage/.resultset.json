@@ -1,0 +1,162 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/sivicencio/Documents/code/clases/jobfers/app/models/offer.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        8,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/sivicencio/Documents/code/clases/jobfers/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/sivicencio/Documents/code/clases/jobfers/app/helpers/offers_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/sivicencio/Documents/code/clases/jobfers/app/controllers/offers_controller.rb": [
+        1,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/Users/sivicencio/Documents/code/clases/jobfers/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/sivicencio/Documents/code/clases/jobfers/app/models/company.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/sivicencio/Documents/code/clases/jobfers/app/models/skill.rb": [
+        1,
+        1,
+        null
+      ]
+    },
+    "timestamp": 1410870276
+  },
+  "Cucumber Features": {
+    "coverage": {
+      "/Users/sivicencio/Documents/code/clases/jobfers/app/models/offer.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        9,
+        null,
+        1,
+        null,
+        1,
+        33,
+        null,
+        null
+      ],
+      "/Users/sivicencio/Documents/code/clases/jobfers/app/controllers/offers_controller.rb": [
+        1,
+        1,
+        3,
+        null,
+        null,
+        1,
+        3,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        2,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/sivicencio/Documents/code/clases/jobfers/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/sivicencio/Documents/code/clases/jobfers/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/sivicencio/Documents/code/clases/jobfers/app/helpers/offers_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/sivicencio/Documents/code/clases/jobfers/app/models/company.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/sivicencio/Documents/code/clases/jobfers/app/models/skill.rb": [
+        1,
+        1,
+        null
+      ]
+    },
+    "timestamp": 1410870712
+  }
+}

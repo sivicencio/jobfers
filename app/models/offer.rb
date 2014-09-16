@@ -9,4 +9,8 @@ class Offer < ActiveRecord::Base
   default_scope { order('updated_at DESC') }
 
   self.per_page = 10
+
+  def human_mode
+    I18n.t "offers.modes.#{mode}"
+  end
 end

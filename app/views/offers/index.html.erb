@@ -7,7 +7,7 @@
     <li>
       <a href="<%= offer_path(offer) %>">
         <div><strong><%= offer.title %></strong> at <%= offer.company.name %></div>
-        <div class="offer"><%= t "offers.modes.#{offer.mode}" %></div>
+        <div class="offer"><%= offer.human_mode %></div>
       </a>
     </li>
     <br>
