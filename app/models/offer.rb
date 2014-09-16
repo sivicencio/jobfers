@@ -11,7 +11,6 @@ class Offer < ActiveRecord::Base
   self.per_page = 10
 
   def human_mode
-    #I18n.t "offers.modes.#{mode}"
-    1
+    I18n.t "offers.modes.#{mode}"
   end
 end
