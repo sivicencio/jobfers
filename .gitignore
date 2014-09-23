@@ -15,5 +15,8 @@
 /log/*.log
 /tmp
 
-# Ignora OSX files
+# Ignore OSX files
 .DS_Store
+
+# Ignore coverage folder
+/coverage

@@ -25,12 +25,12 @@ ActiveRecord::Schema.define(version: 20140911031119) do
 
   create_table "offers", force: true do |t|
     t.string   "title"
-    t.integer  "mode",        limit: 255
     t.decimal  "salary"
     t.text     "description"
     t.integer  "company_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "mode"
   end
 
   add_index "offers", ["company_id"], name: "index_offers_on_company_id"
