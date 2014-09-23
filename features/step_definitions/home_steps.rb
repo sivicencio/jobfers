@@ -1,4 +1,5 @@
 Given(/^I know Jobfers is the most popular job platform$/) do
+  FactoryGirl.create(:offer_with_details)
 end
 
 When(/^I go to the homepage$/) do
@@ -10,6 +11,7 @@ Then(/^I should see at least one offer$/) do
 end
 
 Given(/^I know there are offers$/) do
+  FactoryGirl.create(:offer_with_details)
   visit root_path
   expect(page.all('ul li').size).not_to eq 0
 end

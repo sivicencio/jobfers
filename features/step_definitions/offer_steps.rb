@@ -1,4 +1,5 @@
 Given(/^I am at the homepage$/) do
+  FactoryGirl.create(:offer_with_details)
   visit root_path
 end
 
@@ -11,6 +12,7 @@ Then(/^the details of an offer are displayed$/) do
 end
 
 Given(/^I am seeing the offer details$/) do
+  FactoryGirl.create(:offer_with_details)
   visit offer_path(1)
 end
 
