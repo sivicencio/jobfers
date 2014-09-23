@@ -17,4 +17,8 @@ describe OffersController do
       expect(assigns(:offers)).not_to be_nil
     end
   end
+
+  describe "GET show" do
+    # Write the tests for show action
+  end
 end

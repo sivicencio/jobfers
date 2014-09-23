@@ -19,4 +19,4 @@
 .DS_Store
 
 # Ignore coverage folder
-/coverage
+/coverage/
