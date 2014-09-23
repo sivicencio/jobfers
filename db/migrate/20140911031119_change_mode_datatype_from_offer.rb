@@ -1,7 +1,5 @@
 class ChangeModeDatatypeFromOffer < ActiveRecord::Migration
   def change
-    change_table :offers do |t|
-      t.change :mode, :integer, 'integer USING CAST(mode AS integer)'
-    end
+    change_column :offers, :mode, 'integer USING CAST(mode AS integer)'
   end
 end
