@@ -2,7 +2,7 @@
 
 <%= will_paginate @offers %>
 
-<ul>
+<ul class="offers">
   <% @offers.each do |offer| %>
     <li>
       <a href="<%= offer_path(offer) %>">
