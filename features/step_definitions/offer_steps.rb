@@ -27,5 +27,5 @@ When(/^pressed the update button$/) do
 end
 
 Then(/^I can see the updated offer page$/) do
-  expect(page.find("h1").text).to match(/Some cool job title/)
+  expect(page.find("h2").text).to match(/Some cool job title/)
 end
